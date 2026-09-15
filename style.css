@@ -437,7 +437,9 @@ ul { list-style: none; }
   width: 160px; height: 160px; object-fit: cover;
   border-radius: 12px; border: 2px solid rgba(59,130,246,0.3);
   box-shadow: 0 0 20px rgba(6,182,212,0.2);
+  cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
 }
+.wechat-qr-img:hover { transform: scale(1.04); box-shadow: 0 0 32px rgba(6,182,212,0.4); }
 .wechat-qr-label {
   font-size: 0.8rem; color: var(--text-dim); margin: 0;
 }
