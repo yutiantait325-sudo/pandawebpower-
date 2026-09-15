@@ -441,6 +441,9 @@ ul { list-style: none; }
 .wechat-qr-label {
   font-size: 0.8rem; color: var(--text-dim); margin: 0;
 }
+.wechat-qr-id {
+  font-size: 0.75rem; color: var(--cyan); margin: 0; letter-spacing: 0.03em;
+}
 
 /* =================== FOOTER =================== */
 .footer { background: #040912; padding: 60px 0 28px; border-top: 1px solid var(--border); }
