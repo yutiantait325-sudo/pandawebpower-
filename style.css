@@ -333,7 +333,14 @@ ul { list-style: none; }
 
 /* =================== PRICING =================== */
 .pricing { padding: 88px 0; background: var(--bg-section); }
-.pricing-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; align-items: start; }
+.pricing-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; align-items: start; max-width: 860px; margin: 0 auto; }
+.renewal-bar {
+  display: flex; align-items: center; gap: 12px; justify-content: center;
+  background: rgba(6,182,212,0.08); border: 1px solid rgba(6,182,212,0.25);
+  border-radius: 10px; padding: 14px 24px; margin-bottom: 36px;
+  font-size: 0.9rem; color: var(--cyan); text-align: center;
+}
+.renewal-bar strong { color: #fff; }
 .pricing-card {
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 36px 28px;
